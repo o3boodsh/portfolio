@@ -1,0 +1,135 @@
+/* RESPONSIVE — TABLET (992px) */
+@media screen and (max-width: 992px) {
+    :root {
+        --space-2xl: 64px;
+    }
+
+    section {
+        padding: 60px 32px;
+    }
+
+    hr {
+        margin: 0 32px;
+    }
+
+    ul.topnav {
+        padding: 0 20px;
+        flex-wrap: wrap;
+        height: auto;
+        padding: 14px 20px;
+        gap: 8px;
+    }
+
+    .right {
+        float: none;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    ul.topnav li {
+        float: none;
+    }
+
+    .Cover-content {
+        width: 90%;
+    }
+
+    .about .item {
+        width: 100%;
+    }
+
+    .about img {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 24px;
+    }
+
+    .project .item {
+        width: calc(50% - 10px);
+    }
+
+    .w-60,
+    .w-40 {
+        width: 100%;
+    }
+
+    #contactus .flex {
+        flex-direction: column;
+    }
+
+    .item.contact-info .item {
+        width: 100%;
+    }
+
+    .cover-page {
+        height: 260px;
+        margin-top: 120px;
+    }
+}
+
+/* RESPONSIVE — MOBILE ( 768px) */
+@media screen and (max-width: 768px) {
+    nav {
+        .topnav {
+            justify-content: center;
+        }
+    }
+
+    #contactus {
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+        padding: 40px 20px;
+    }
+
+    .contact-form-side {
+        padding: 20px;
+    }
+
+    .contact-form input[type="submit"] {
+        width: 100%;
+    }
+
+    .contact-card {
+        padding: 14px;
+        gap: 10px;
+    }
+}
+
+/* RESPONSIVE — MOBILE ( 600px) */
+@media screen and (max-width: 600px) {
+    section {
+        padding: 48px 20px;
+    }
+
+    hr {
+        margin: 0 20px;
+    }
+
+    .project .item {
+        width: 100%;
+    }
+
+    .cover-page {
+        height: 240px;
+        padding: 20px;
+    }
+
+    input[type="submit"] {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    footer {
+        padding: 22px 20px;
+        margin-top: 40px;
+    }
+}
+
+/* RESPONSIVE — SMALL MOBILE (452px) */
+@media screen and (max-width: 452px) {
+    .cover-page {
+        margin-top: 130px;
+    }
+}
